@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      	<title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <style>
+      input[type=text], select, input[type=password]{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+
+   input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+   input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      </style>
+         <body>
+          <ul class="nav">
+                <li><a href="project.html" class="active">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+          </ul>
+      	<div>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="lname">address</label>
+          <input type="text" id="lname" name="address" placeholder="Your address..">
+           <label for="lname">phone</label>
+          <input type="text" id="lname" name="phone" placeholder="Your phone..">
+          <label for="lname">password</label>
+              <input type="password" id="lname" name="password" placeholder="Your password..">
+          <input type="submit" value="Submit">
+      </form>
+      </div>
+      	<!-- <form action="/action_page.php">
+        First name:<br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname">
+        <br>
+        address:<br>
+        <input type="text" name="address">
+        <br>
+        phone:<br>
+        <input type="text" name="phone">
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>  -->
+    </body>
+   </html>
